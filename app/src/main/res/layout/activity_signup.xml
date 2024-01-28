@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:background="@drawable/bw2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="230dp">
+
+                <EditText
+                    android:id="@+id/e1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:textSize="20sp"
+                    android:padding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border"
+                    android:layout_margin="20dp"
+                    android:drawableLeft="@drawable/baseline_mail_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/r"/>
+
+                <EditText
+                    android:id="@+id/e2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:textSize="20sp"
+                    android:padding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border"
+                    android:layout_margin="20dp"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/r"/>
+                <EditText
+                    android:id="@+id/e3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:hint="Confirm Password"
+                    android:textSize="20sp"
+                    android:padding="20dp"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black"
+                    android:background="@drawable/border"
+                    android:layout_margin="20dp"
+                    android:drawableLeft="@drawable/baseline_password_24"
+                    android:drawablePadding="20dp"
+                    android:fontFamily="@font/r"/>
+                <Button
+                    android:id="@+id/buttonsignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="30dp"
+                    android:padding="15dp"
+                    android:textColor="@color/white"
+                    android:textSize="19sp"
+                    android:fontFamily="@font/m">
+                </Button>
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Already an user, Login"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:fontFamily="@font/m">
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

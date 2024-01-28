@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Weight</string>
+    <string name="product_name">Product Name</string>
+    <string name="price_to_weight_calculator">PRICE TO WEIGHT CALCULATOR</string>
+    <string name="enter_fixed_price_per_kg">Enter fixed price per kg</string>
+    <string name="example_250_kg">Example: 250/-KG</string>
+    <string name="enter_amount_that_you_are_paying">Enter amount that you are paying</string>
+    <string name="example_75">Example 75/-</string>
+    <string name="calculate">Calculate</string>
+    <string name="weight_in_gram">Weight in gram:</string>
+    <string name="g">g</string>
+    <string name="weight_in_k_gram">Weight in K-gram:</string>
+    <string name="kg">kg</string>
+    <string name="price">PRICE</string>
+    <string name="rate">rate</string>
+    <string name="weight">WEIGHT</string>
+    <string name="weight_to_price_calculator">WEIGHT TO PRICE CALCULATOR</string>
+    <string name="enter_fixed_price_per_kg1">Enter fixed price per kg</string>
+    <string name="example_250_kg1">Example: 250/-KG</string>
+    <string name="enter_weight">Enter weight</string>
+    <string name="example_100g">Example 100g</string>
+    <string name="calculaterate">Calculate</string>
+    <string name="price_for_gram">Price for gram :</string>
+    <string name="rs">rs</string>
+    <string name="price_for_k_gram">Price for K-gram :</string>
+    <string name="rs2">rs</string>
+    <string-array name="Weight">
+        <item>Select</item>
+        <item>KG</item>
+        <item>G</item>
+    </string-array>
+    <string-array name="Product">
+        <item>Product</item>
+        <item>Onions</item>
+        <item>Tomato</item>
+        <item>Meat</item>
+        <item>Chicken</item>
+    </string-array>
+
+</resources>
